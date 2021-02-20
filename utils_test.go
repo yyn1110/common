@@ -1,7 +1,7 @@
 package common
 
 import "testing"
-import _ "ac-common-go/mysql"
+
 
 func TestOpenDatabase(t *testing.T) {
 	opts := DBOptions{
